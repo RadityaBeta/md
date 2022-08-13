@@ -1,4 +1,4 @@
-# Aine-MD
+# Raditya-MD
 
 This script is free, if caught sold, this script will be deleted immediately.
 Don't forget to follow my github
