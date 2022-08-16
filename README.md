@@ -6,10 +6,10 @@ Don't forget to follow my github
 Script ini gratis, Jika ketahuan di jual, Script ini akan langsung di hapus.
 Jangan lupa untuk mengikuti github ku
 * My WhatsApp [`Click Here`](https://wa.me/62895330379186?text=Assalamualaikum)
-* My Facebook [`Click Here`](https://facebook.com/ainneboot)
+* My Facebook [`Click Here`](https://facebook.com/aradityafm)
 
 ## Heroku Buildpack
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aiinne/Aine-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://https://github.com/RadityaBeta/md)
 
 | BuildPack | LINK |
 |--------|--------|
@@ -88,7 +88,7 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Aiinne/Aine-MD
+git clone https://github.com/RadityaBeta/md
 cd Aiinne-MD
 npm install
 npm update
