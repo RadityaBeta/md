@@ -1,5 +1,5 @@
 {
-    "name": "Aine-Bot",
+    "name": "RADIT-BOT",
     "version": "07.06.98",
     "description": "Customizable WhatsApp Bot",
     "depecrated": false,
@@ -27,7 +27,7 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Aiinne",
+    "homepage": "https://github.com/Aiine6",
     "author": {
         "name": "Muhammad Ridwan Reynaldy"
     },
