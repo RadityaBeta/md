@@ -3,7 +3,7 @@ const timeout = 1800000
 
 let handler = async (m, { conn, usedPrefix, text }) => {
 	    let time = global.db.data.users[m.sender].lastmulung + 1800000
-  if (new Date - global.db.data.users[m.sender].lastmulung< 1800000) throw `Anda sudah lelah untuk mulung\nTunggu selama ${msToTime(time - new Date())} lagi`
+  if (new Date - global.db.data.users[m.sender].lastmulung< 1800000) throw `Anda sudah mulung tot\nTunggu selama ${msToTime(time - new Date())} lagi`
 	let botolnye = `${Math.floor(Math.random() * 1000)}`.trim()
 	let kalengnye = `${Math.floor(Math.random() * 1000)}`.trim()
 	let kardusnye = `${Math.floor(Math.random() * 1000)}`.trim()
@@ -13,7 +13,7 @@ let handler = async (m, { conn, usedPrefix, text }) => {
 	global.db.data.users[m.sender].lastmulung = new Date * 1
   m.reply(`Selamat kamu mendapatkan : \n+${botolnye} Botol\n+${kardusnye} Kardus\n+${kalengnye} Kaleng`)
   setTimeout(() => {
-					conn.reply(m.chat, `Yuk waktunya mulung lagi 😅`, m)
+					conn.reply(m.chat, `mulung lagi om`, m)
 					}, timeout)
 }
 handler.help = ['mulung']
