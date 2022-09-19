@@ -9,7 +9,7 @@ handler.before = async function (m, { user, isBotAdmin, isAdmin }) {
   if (chat.antiLink && isGroupLink) {
     await m.reply(`*「 ANTI LINK 」*\n\nDetected *${await conn.getName(m.sender)}* hahaa kmu kirim link kan!\n\nmantep gw dapat jatah kick mwehwewhe`)
     if (isAdmin) return m.reply('*anying lu admin sory nagab:v..*')
-    if (!isBotAdmin) return m.reply('*Bots are not admins, how can they kick people _-*')
+    if (!isBotAdmin) return m.reply('*gw ga admin, fitur kick tidak aftif vro*')
     let linkGC = ('https://chat.whatsapp.com/' + await conn.groupInviteCode(m.chat))
     let isLinkconnGc = new RegExp(linkGC, 'i')
     let isgclink = isLinkconnGc.test(m.text)
